@@ -17,7 +17,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Prueba</>,
+    title: <>Git</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
@@ -27,7 +27,7 @@ const features = [
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>CSS</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -37,7 +37,7 @@ const features = [
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Javascript</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
@@ -68,20 +68,21 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Lidia Ramírez N. | ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <p className={clsx('hero__subtitle', styles.heroSubtitle)}>{siteConfig.tagline}</p>
+          <img className={styles.heroImage} src="img/home_typing.svg"></img>
           <div className={styles.buttons}>
             <Link
               className={clsx(
-                'button button--outline button--secondary button--lg',
+                'button button--outline button--lg',
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              Empezar
             </Link>
           </div>
         </div>

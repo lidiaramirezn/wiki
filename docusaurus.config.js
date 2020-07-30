@@ -8,8 +8,8 @@
  */
 
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Wiki Frontend',
+  tagline: 'Fuente de información según mi experiencia',
   url: 'https://lidiaramirezn.github.io',
   baseUrl: '/wiki/',
   onBrokenLinks: 'throw',
@@ -18,7 +18,7 @@ module.exports = {
   projectName: 'wiki', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: ' ',
       logo: {
         alt: 'My Facebook Project Logo',
         src: 'img/logo.svg',
