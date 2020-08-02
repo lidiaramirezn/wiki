@@ -14,6 +14,10 @@
   width: 200px;
 }
 
+.heroButton {
+  border-color: #fff;
+}
+
 @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;

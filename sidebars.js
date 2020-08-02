@@ -11,6 +11,6 @@ module.exports = {
   someSidebar: {
     Inicio: ['doc1'],
     GIT: ['git/doc1', 'git/doc2', 'git/doc3', 'git/doc4'],
-    CSS: ['css/variables']
+    CSS: ['css/variables', 'css/selectores','css/recomendaciones']
   },
 };

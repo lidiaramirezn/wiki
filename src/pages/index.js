@@ -50,6 +50,7 @@ const features = [
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
+  console.log('imageUrl',imageUrl, 'imgUrl', imgUrl)
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
@@ -79,7 +80,7 @@ function Home() {
             <Link
               className={clsx(
                 'button button--outline button--lg',
-                styles.getStarted,
+                styles.heroButton,
               )}
               to={useBaseUrl('docs/')}>
               Empezar
