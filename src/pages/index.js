@@ -92,13 +92,8 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {features.map(({title, imageUrl, description}) => (
-                  <Feature
-                    key={title}
-                    title={title}
-                    imageUrl={imageUrl}
-                    description={description}
-                  />
+                {features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
                 ))}
               </div>
             </div>

@@ -13,7 +13,7 @@ module.exports = {
   url: 'https://lidiaramirezn.github.io',
   baseUrl: '/wiki/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/adilla.ico',
   organizationName: 'lidiaramirezn', // Usually your GitHub org/user name.
   projectName: 'wiki', // Usually your repo name.
   themeConfig: {
@@ -21,7 +21,7 @@ module.exports = {
       title: ' ',
       logo: {
         alt: 'My Facebook Project Logo',
-        src: 'img/logo.svg',
+        src: 'img/adilla.svg',
       },
       items: [
         {
@@ -29,9 +29,7 @@ module.exports = {
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        // Please keep GitHub link to the right for consistency.
+        },       
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -42,63 +40,6 @@ module.exports = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Learn',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/'
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2'
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'Legal',
-          // Please do not remove the privacy and terms, it's a legal requirement.
-          items: [
-            {
-              label: 'Privacy',
-              href: 'https://opensource.facebook.com/legal/privacy/'
-            },
-            {
-              label: 'Terms',
-              href: 'https://opensource.facebook.com/legal/terms/'
-            },
-          ],
-        },
       ],
       logo: {
         alt: 'Facebook Open Source Logo',
@@ -120,12 +61,6 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
